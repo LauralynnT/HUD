@@ -135,7 +135,6 @@ namespace HUD
             Console.WriteLine("Player kills 2 enemies");
             Console.WriteLine("Player gets 100pts");
             Console.WriteLine("10 enemies killed: score multiplier increased");
-            Console.WriteLine("Level Completed.");
 
             health -= 25;
             score += 100;
@@ -149,6 +148,8 @@ namespace HUD
             Console.WriteLine("----------");
             Console.ReadKey();
             Console.WriteLine("");
+            Console.WriteLine("Goal Completed: Kill 10 enemies.");
+            Console.WriteLine("Level completed.");
         }
     }
 }
