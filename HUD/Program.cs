@@ -31,7 +31,7 @@ namespace HUD
 
             Console.ReadKey();
             Console.WriteLine("");
-            Console.WriteLine("Player Takes 25dmg");
+            Console.WriteLine("Player Takes 25 dmg");
 
             health -= 25;
 
@@ -105,6 +105,41 @@ namespace HUD
             Console.WriteLine("Player gains 50hp");
 
             health += 50;
+
+            Console.ReadKey();
+            Console.WriteLine("");
+            Console.WriteLine("----------");
+            Console.WriteLine("Score Multiplier: " + multiplier + " | Score: " + score * multiplier);
+            Console.WriteLine("Health: " + health + " | Lives: " + lives);
+            Console.WriteLine("----------");
+            Console.ReadKey();
+            Console.WriteLine("");
+
+            Console.WriteLine("Player kills 2 enemies");
+            Console.WriteLine("Player gets 100pts");
+            Console.WriteLine("Player takes 25dmg");
+
+            health -= 25;
+            score += 100;
+
+            Console.ReadKey();
+            Console.WriteLine("");
+            Console.WriteLine("----------");
+            Console.WriteLine("Score Multiplier: " + multiplier + " | Score: " + score * multiplier);
+            Console.WriteLine("Health: " + health + " | Lives: " + lives);
+            Console.WriteLine("----------");
+            Console.ReadKey();
+            Console.WriteLine("");
+
+            Console.WriteLine("Player takes 25dmg");
+            Console.WriteLine("Player kills 2 enemies");
+            Console.WriteLine("Player gets 100pts");
+            Console.WriteLine("10 enemies killed: score multiplier increased");
+            Console.WriteLine("Level Completed.");
+
+            health -= 25;
+            score += 100;
+            multiplier += 0.25f;
 
             Console.ReadKey();
             Console.WriteLine("");
